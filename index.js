@@ -16,7 +16,7 @@ $(document).ready(function(){
 			document.getElementById('pic').src = frame;
 			if(count === 90){
 				clearInterval(ani);
-				window.location.href = 'https://chriso91.github.io/menu'
+				window.location.href = 'https://chriso91.github.io/menu';
 			}
 			else{
 				count++;
